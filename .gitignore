@@ -1,0 +1,46 @@
+# directories
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+node_modules
+
+# foundry
+cache
+out
+venv
+
+# files
+*.env
+.env.hardhat
+*.log
+.DS_Store
+.pnp.*
+yarn-debug.log*
+yarn-error.log*
+
+# broadcasts
+!/broadcast
+/broadcast/*
+/broadcast/*/31337/
+
+# anvil states
+script/development/*.state
+script/development/*.report
+
+# Hardhat files
+cache
+cache_hardhat
+artifacts
+coverage
+coverage.json
+typechain
+typechain-types
+
+# deploy files
+# vaults.json
+# contracts.json
+/deployments
